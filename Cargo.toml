@@ -1,0 +1,11 @@
+[package]
+name = "flamingols"
+description = "LSP language server for the Flamingo programming language"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0.78"
+tokio = {version = "1.17.0", features = ["full"]}
+tower-lsp = {version = "0.20.0", features = ["proposed"]}
+serde = {version = "1.0", features = ["derive"]}

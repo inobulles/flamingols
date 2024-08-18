@@ -1,13 +1,13 @@
-# flamingols 🦩🐪
+# flamingols 🦩🦀
 
-LSP server for the [Flamingo](https://github.com/inobulles/flamingo) language, written in OCaml.
+LSP language server for the [Flamingo](https://github.com/inobulles/flamingo) programming language.
 
 ## Building
 
 Just do:
 
 ```console
-opam exec -- dune build
+cargo build --release
 ```
 
 ## Running
@@ -15,5 +15,10 @@ opam exec -- dune build
 Just do:
 
 ```console
-opam exec -- dune exec flamingols
+cargo run
 ```
+
+## Resources
+
+- [Hands-On LSP Tutorial: Building a Custom Auto-Complete](https://prefab.cloud/blog/lsp-language-server-from-zero-to-completion/).
+- <https://github.com/tree-sitter/tree-sitter/discussions/3346>

@@ -1,4 +1,0 @@
-(executable
- (public_name flamingols)
- (name main)
- (libraries flamingols))
